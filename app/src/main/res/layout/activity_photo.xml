@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/grad_bg"
+    tools:context=".ProfileActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/upl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="Upload Picture"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+            <ImageView
+                android:id="@+id/selectpic"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/upl"
+                android:src="@drawable/ic_assignment_ind_black_24dp" />
+            <Button
+                android:id="@+id/uploadpic"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/selectpic"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Upload"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

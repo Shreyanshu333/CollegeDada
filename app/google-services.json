@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "588717647311",
+    "firebase_url": "https://collegedada-9b720.firebaseio.com",
+    "project_id": "collegedada-9b720",
+    "storage_bucket": "collegedada-9b720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588717647311:android:9a18ccfff62783c2b61eba",
+        "android_client_info": {
+          "package_name": "com.example.collegedada1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588717647311-6dkib75h5b9oa767pfitm84g5fu0u8rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg035RtgOu6DjU_CTIWHZ_jxx-lmE7nbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588717647311-6dkib75h5b9oa767pfitm84g5fu0u8rb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
